@@ -3,7 +3,7 @@ Please use the below steps to load the data and run the flask program
 
 docker build  -t osmwebapi .
 
-docker run osmwebapi
+docker run -p 5000:5000 osmwebapi
 
 This flask api will run:
 
